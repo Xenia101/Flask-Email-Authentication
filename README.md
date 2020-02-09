@@ -1,1 +1,1 @@
-# Flask Email Authentication
+# Flask Email Verification
