@@ -42,6 +42,7 @@ def confirm_email(token):
 - example of email
 
 ```python
+# href in Email
 http://www.example.com/confirm/eyJlbWFpbCI6ImxvbW15MTAxQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoicXdlcXdlIn0.XkA0IQ.3izTIkyiiMuTHvEi2BVmbW7QJYo
 
 token = "eyJlbWFpbCI6ImxvbW15MTAxQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoicXdlcXdlIn0.XkA0IQ.3izTIkyiiMuTHvEi2BVmbW7QJYo"
