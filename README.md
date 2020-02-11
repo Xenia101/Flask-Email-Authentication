@@ -56,6 +56,6 @@ def resend_confirmation():
 ```
 
 ## Execution / Test Environment
-  - Windows 10 or Ubuntu Linux
+  - Ubuntu Linux
   - Python3.x
 
