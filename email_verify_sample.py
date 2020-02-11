@@ -17,6 +17,7 @@ def home():
 @app.route('/signup',methods = ['POST', 'GET'])
 def signup():
 	if request.method == 'POST':
+		email = request.form['email']
                 session['email'] = email
 		send_confirmation_mail(email, id)
 
