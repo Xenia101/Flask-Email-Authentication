@@ -32,6 +32,14 @@ def confirm_email(token):
     return redirect(url_for('home'))
 ```
 
+- example of email
+
+```python
+http://www.example.com/confirm/eyJlbWFpbCI6ImxvbW15MTAxQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoicXdlcXdlIn0.XkA0IQ.3izTIkyiiMuTHvEi2BVmbW7QJYo
+
+token = "eyJlbWFpbCI6ImxvbW15MTAxQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoicXdlcXdlIn0.XkA0IQ.3izTIkyiiMuTHvEi2BVmbW7QJYo"
+```
+
 - resend a verify email
 
 ```python
@@ -39,3 +47,8 @@ def confirm_email(token):
 def resend_confirmation():
 	send_confirmation_mail(session['email'], session['username'])
 ```
+
+## Execution / Test Environment
+  - Windows 10 or Ubuntu Linux
+  - Python3.x
+
