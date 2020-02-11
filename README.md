@@ -10,6 +10,13 @@ from config import BaseConfig
 from utils import *
 ```
 
+- mail server (SMTP:587)
+
+```python
+MAIL_SERVER = 'smtp.gmail.com:587'
+```
+
+
 - sign up page for send confirmation mail
 
 ```python
