@@ -1,5 +1,9 @@
 # Flask Email Verification
 
+<p align=center>
+	<img src="https://github.com/Xenia101/Flask-Email-Authentication/blob/master/img/email_verification.png?raw=true">
+</p>
+
 Flask based Email Verification, Used in [WITHME](http://www.withme.xyz/info) 
 
 ## EXAMPLE
