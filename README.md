@@ -1,6 +1,6 @@
 # Flask Email Verification
 
-Flask based Email Verification, Used in [WITHME](http://www.withme.xyz) 
+Flask based Email Verification, Used in [WITHME](http://www.withme.xyz/info) 
 
 ## EXAMPLE
 
