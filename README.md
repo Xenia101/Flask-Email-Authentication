@@ -41,6 +41,9 @@ def confirm_email(token):
     data = confirm_token(token)
   except:
     return redirect(url_for('home'))
+    
+  # DB user.activate = True
+  # User  = data['username']
 ```
 
 - example of email
