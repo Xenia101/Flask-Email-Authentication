@@ -65,5 +65,5 @@ def resend_confirmation():
 
 ## Execution / Test Environment
   - Ubuntu Linux
-  - Python3.x
+  - Python **3.6**
 
